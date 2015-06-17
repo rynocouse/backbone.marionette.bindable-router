@@ -3,7 +3,7 @@
 This router allows you to bind controller methods to route params using a leading @ char.
 
 Example of router:
-```
+```javascript
   appRoutes: {
     'users/@user/edit': 'onUserEdit',
     'users/@user/copy': 'onUserCopy',
@@ -12,7 +12,7 @@ Example of router:
 ```
 
 Example of controller:
-```
+```javascript
   user: function(id){
     return new User({id: id});
   },
