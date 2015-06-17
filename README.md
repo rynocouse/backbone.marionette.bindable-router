@@ -1,6 +1,6 @@
 # Bindable Route Params for Marionette
 
-This router allows you to bind controller methods to toute params using a leading @ char.
+This router allows you to bind controller methods to route params using a leading @ char.
 
 Example of router:
 ```
