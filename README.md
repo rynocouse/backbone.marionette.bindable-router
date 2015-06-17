@@ -1,4 +1,4 @@
-# Bind Controller Methods to Route Params for Backbone Marionette AppRouter
+# Bindable Route Params for Marionette
 
 This router allows you to bind controller methods to toute params using a leading @ char.
 
