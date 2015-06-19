@@ -22,7 +22,7 @@ module.exports = Marionette.AppRouter.extend({
 		this.params = this.params || {};
 		this.params[route] = this.params[route] || {};
 		var paramMethod = param.slice(1);
-		if (bindingParam.test(param) && _.isFunction(this.controller[paramMethod])) {
+		if ((param[0] === '@') && _.isFunction(this.controller[paramMethod])) {
 			this.params[route][i] = this.controller[paramMethod];
 		}
 	},
